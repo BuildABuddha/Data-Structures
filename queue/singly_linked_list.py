@@ -1,3 +1,7 @@
+# I had to copy this file into this directory to make importing work, since importing from adjacent
+# directories rather than subdirectories is a pain in the butt.
+
+
 class Node:
     def __init__(self, value, next_node=None):
         self.value = value
